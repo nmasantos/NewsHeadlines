@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/newsArticles">
+
+    <fragment
+        android:id="@+id/newsArticles"
+        android:name="com.nsantos.news_topheadlines.ui.fragments.NewsArticlesFragment"
+        android:label="@string/headlines_source"
+        tools:layout="@layout/fragment_home_screen" >
+        <action
+            android:id="@+id/action_homeScreen_to_headlineDetail"
+            app:destination="@id/newsArticleDetail"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/newsArticleDetail"
+        android:name="com.nsantos.news_topheadlines.ui.fragments.NewsArticleDetailFragment"
+        tools:layout="@layout/fragment_news_article_detail" >
+        <argument
+            android:name="newsArticleModel"
+            app:argType="com.nsantos.news_topheadlines.models.NewsArticleModel" />
+    </fragment>
+</navigation>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">News - Top Headlines</string>
+    <string name="top_headlines_title">Latest top headlines</string>
+    <string name="headline_image_content_description">Headline image</string>
+    <string name="headline_item_position">%d.</string>
+    <string name="headlines_source">BBC News</string>
+    <string name="biometric_authentication">Biometric Authentication</string>
+    <string name="biometric_authentication_subtitle">Enter biometric credentials</string>
+</resources>

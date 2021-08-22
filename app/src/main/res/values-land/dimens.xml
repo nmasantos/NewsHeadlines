@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recycler_view_margin_start_end">64dp</dimen>
+    <dimen name="recycler_view_margin_top">32dp</dimen>
+    <dimen name="list_item_article_text_size">16sp</dimen>
+    <dimen name="article_detail_text_view_margin_top">8dp</dimen>
+    <dimen name="article_detail_text_view_margin_bottom">16dp</dimen>
+    <dimen name="article_detail_layout_margin_start_end">64dp</dimen>
+    <dimen name="article_detail_layout_margin_top">32dp</dimen>
+</resources>
